@@ -1,9 +1,10 @@
 {
-    "name": "rehkzylbz/otus-hw-package",
+    "name": "rehkzylbz/otus-hw4-package",
+    "description": "simple Caesar cipher encoder/decoder",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Rehkzylbz\\OtusHwPackage\\": "src/"
+            "Rehkzylbz\\OtusHw4Package\\": "src/"
         }
     },
     "authors": [
@@ -11,7 +12,5 @@
             "name": "rehkzylbz"
         }
     ],
-    "require": {
-         "php": ">=7.4"
-    }
+    "require": {}
 }

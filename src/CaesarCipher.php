@@ -2,7 +2,7 @@
 
 declare (strict_types=1);
 
-namespace Rehkzylbz\OtusHwPackage;
+namespace Rehkzylbz\OtusHw4Package;
 
 class CaesarCipher {
 

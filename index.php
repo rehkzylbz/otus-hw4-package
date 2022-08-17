@@ -4,7 +4,7 @@ declare (strict_types=1);
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Rehkzylbz\OtusHwPackage\CaesarCipher;
+use Rehkzylbz\OtusHw4Package\CaesarCipher;
 
 $string = 'Hello, world! Всем привет!';
 echo 'Исходная строка: ', $string, PHP_EOL;
