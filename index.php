@@ -7,8 +7,8 @@ require __DIR__ . '/vendor/autoload.php';
 use Rehkzylbz\OtusHwPackage\CaesarCipher;
 
 $string = 'Hello, world! Всем привет!';
-var_dump($string);
-$encode = CaesarCipher::encode();
-var_dump($encode);
+echo 'Исходная строка: ', $string, PHP_EOL;
+$encode = CaesarCipher::encode($string);
+echo 'Шифрованная строка: ', $encode, PHP_EOL;
 $decode = CaesarCipher::decode($encode);
-var_dump($decode);
+echo 'Расшифрованная строка: ', $decode, PHP_EOL;
