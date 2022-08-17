@@ -1,0 +1,17 @@
+{
+    "name": "rehkzylbz/otus-hw-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rehkzylbz\\OtusHwPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rehkzylbz"
+        }
+    ],
+    "require": {
+         "php": ">=7.4"
+    }
+}
