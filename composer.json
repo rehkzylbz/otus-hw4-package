@@ -12,5 +12,7 @@
             "name": "rehkzylbz"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4"
+    }
 }
